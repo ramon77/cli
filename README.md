@@ -18,7 +18,7 @@
 
 For on Ubuntu 16.04 x64:
 ```bash
-cd $home && git clone https://github.com/tgMember/tgAPI.git && cd tgAPI && chmod 700 launch.sh && ./launch.sh
+cd $home && git clone https://github.com/ramon77/cli.git && cd cli && chmod 700 launch.sh && ./launch.sh
 ```
 
 press key "y" & "enter"
@@ -83,7 +83,7 @@ open and run again server and enter below command:
 
 
 ```
-cd tgAPI
+cd cli
 cd api
 screen ./api.sh
 ```
