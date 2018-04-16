@@ -7,8 +7,8 @@ https = require "ssl.https"
 redis = require('redis')
 db = redis.connect('127.0.0.1', 6379)
 BASE = '../bot/'
-SUDO = 158955285 --sudo id
-sudo_users = {158955285,180191663,279700027,361871436,userid}
+SUDO = 475975207 --sudo id
+sudo_users = {475975207,513972374,527789307,userid}
 BOTS = 361871436 --bot id
 bot_id = db:get(SUDO..'bot_id')
 function vardump(value)
