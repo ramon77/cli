@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/tgAPI
+cd $HOME/cli
 aa() {
  sudo apt-get install
 }
@@ -65,7 +65,7 @@ echo -e "\e[38;5;142mInstalling LuaRocks\e"
   cd luarocks
   git checkout tags/v2.3.0-rc2 # Release Candidate
 
-  PREFIX="$tgAPI/.luarocks"
+  PREFIX="$cli/.luarocks"
 
   ./configure --prefix=$PREFIX --sysconfdir=$PREFIX/luarocks --force-config
 
